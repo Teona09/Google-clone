@@ -19,7 +19,24 @@ a {
 
 /* Header */
 .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 4px 0px 32px;
+    font: 13px;
+    font-family: arial,sans-serif;
+}
 
+.header ul {
+    display: flex;
+    align-items: center;
+}
+
+.header ul li {
+    margin: 0 10px;
+}
+
+.header ul img {
+    border-radius: 50%;
 }
 
 /* Body */
