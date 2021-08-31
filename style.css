@@ -46,6 +46,29 @@ body {
     color: black;
 }
 
+/* Grid menu */
+.header .circles-menu {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .circles-menu:hover{
+    background-color: #a8adb3;
+    border-radius: 50%;
+    width: 30px;
+    padding: 3px 2px;
+}
+
+.header .circles-menu .circle {
+    background-color: #5f6368;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 1px;
+}
+
 
 .header ul img {
     border-radius: 50%;
@@ -92,8 +115,6 @@ body {
     border: 1px solid #dfe1e5;
     border-radius: 30px;
     outline: none;
-    
-
 }
 
 .hero .search-buttons{
