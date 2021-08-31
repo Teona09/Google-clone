@@ -6,18 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <title>Google Homepage</title>
 </head>
 <body>
     <!-- Header -->
-    <ul>
-        <li><a href="https://mail.google.com"></a>Gmail</li>
-        <li><a href="https://www.google.ro/imghp?hl=en&ogbl"></a>Images</li>
-        <li>
-            <!-- Grid Menu -->
-            Menu
-        </li>
-        <li><img src="/images/profile.jpg" alt="profile picture" title="Minion"></li>
-    </ul>
+    <header>
+        <ul>
+            <li><a href="https://mail.google.com/mail/&ogbl"></a>Gmail</li>
+            <li><a href="https://www.google.ro/imghp?hl=en&ogbl"></a>Imagini</li>
+            <li>
+                <!-- Grid Menu -->
+                Meniu
+            </li>
+            <li><img src="images/profile.jpg" alt="profile picture" title="Minion" width="30"></li>
+        </ul>
+    </header>
+
+    <!-- Search area/Hero -->
+    <section class="hero">
+        <div class="Google-Logo">
+            <img src="images/Google-Logo.png" alt="Google Logo" title="Google Search"
+                width="400">
+        </div>
+
+        <!-- Search form-->
+        <div class="form-container">
+            <form>
+                <label>
+                    <i class="fas fa-search"></i>
+                </label>
+                <input type="text" title="Căutați">
+                <label>
+                    <i class="fas fa-microphone"></i>
+                </label>
+            </form>
+        </div>
+
+        <!-- Search Buttons-->
+        <div class="search-buttons">
+            <button>Căutare Google</button>
+            <button>Mă simt norocos</button>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div>România</div>
+        <ul>
+            <li>
+                <a href="https://about.google/?utm_source=google-RO&utm_medium=referral&utm_campaign=hp-footer&fg=1"></a>
+                Despre
+            </li>
+            <li>
+                <a href="https://ads.google.com/intl/ro_ro/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"></a>
+                Publicitate
+            </li>
+            <li>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"></a>
+                Companii
+            </li>
+            <li>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1"></a>
+                Cum funcționează Căutarea
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://policies.google.com/privacy?hl=ro&fg=1"></a>
+                Confidențialitate
+            </li>
+            <li>
+                <a href="https://policies.google.com/terms?hl=ro&fg=1"></a>
+                Termeni
+            </li>
+            <li>
+                <!--Pop up menu -->
+                <!--Link is for search setting only -->
+                <a href="https://www.google.com/preferences?hl=ro&fg=1"></a>
+                Setări
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
