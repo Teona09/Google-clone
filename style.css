@@ -35,4 +35,32 @@ body {
     left: 0;
     width: 100%;
     background-color: #f2f2f2;
+    padding: 15px 0;
+    font-family: arial,sans-serif;
+    color: #70757a;
+}
+
+footer p {
+    font-weight: 400;
+    border-bottom: 1px solid #a8adb3;
+    padding: 0 30px 10px;
+}
+
+.footer .footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+
+}
+
+.footer .footer-links ul li {
+    margin: 0 10px;
+    font-size: 15px;
 }
