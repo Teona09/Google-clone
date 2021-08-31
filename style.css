@@ -40,7 +40,10 @@ body {
 .header ul li {
     margin: 5px 10px;
     color: black;
+}
 
+.header ul li a{
+    color: black;
 }
 
 
@@ -143,7 +146,7 @@ footer p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -156,9 +159,34 @@ footer p {
 
 .footer .footer-links ul li {
     margin: 0 10px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer .footer-links ul li a {
     color: #70757a;
+}
+
+@media(min-width: 500px){
+    .hero .form-container form input{
+        width: 400px;
+    }
+}
+
+@media(min-width: 640px){
+    .hero .form-container form input{
+        width: 500px;
+    }
+}
+
+@media(min-width: 768px){
+    .hero .form-container form input{
+        width: 650px;
+    }
+}
+
+@media(min-width: 1280px){
+    .footer .footer-links {
+        justify-content: space-between;
+        padding: 0 30px;
+    }
 }
