@@ -91,6 +91,8 @@ body {
     width: 300px;
     border: 1px solid #dfe1e5;
     border-radius: 30px;
+    outline: none;
+    
 
 }
 
