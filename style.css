@@ -17,6 +17,12 @@ a {
     text-decoration: none;
 }
 
+/* Body */
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -39,10 +45,45 @@ a {
     border-radius: 50%;
 }
 
-/* Body */
-body {
-    height: 100vh;
-    overflow: hidden;
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.hero .form-container form{
+    position: relative;
+}
+
+.hero .form-container form label.search-icon{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+.hero .form-container form label.search-icon i{
+    color: #9aa0a6;
+}
+
+.hero .form-container form label.microphone-icon{
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+
+.hero .form-container form label.microphone-icon i{
+    color: blue;
+}
+
+.hero .form-container form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+
 }
 
 /* Footer */
