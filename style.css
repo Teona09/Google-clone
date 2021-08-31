@@ -39,8 +39,10 @@ body {
 
 .header ul li {
     margin: 5px 10px;
+    color: black;
 
 }
+
 
 .header ul img {
     border-radius: 50%;
@@ -109,6 +111,11 @@ body {
     cursor: pointer;
 }
 
+.hero .search-buttons button a{
+    color: #3c4043
+}
+
+
 .hero .search-buttons button:hover {
     border: 1px solid #b3b3b3;
     box-shadow: 0 2px 4px #cccccc;
@@ -137,6 +144,7 @@ footer p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 
 .footer .footer-links ul {
@@ -149,4 +157,8 @@ footer p {
 .footer .footer-links ul li {
     margin: 0 10px;
     font-size: 15px;
+}
+
+.footer .footer-links ul li a {
+    color: #70757a;
 }
