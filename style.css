@@ -45,7 +45,7 @@ body {
 }
 
 .header .redirect-to a{
-    color: black;
+    color: #000000DE;
     font-size: 13px; 
     display: flex;
     justify-content: space-between;
@@ -106,6 +106,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 65vh;
+    padding: 10px 10px;
 }
 
 .hero .form-container form{
@@ -124,12 +125,9 @@ body {
 
 .hero .form-container form label.microphone-icon{
     position: absolute;
-    right: 12px;
-    top: 12px;
-}
-
-.hero .form-container form label.microphone-icon i{
-    color: blue;
+    width: -10%;
+    right: 10px;
+    top: 5px;
 }
 
 .hero .form-container input{
@@ -184,7 +182,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin: 5px 10px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: arial,sans-serif;
     align-items: flex-start;
 }
