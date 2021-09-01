@@ -27,23 +27,34 @@ body {
 .header {
     display: flex;
     justify-content: flex-end;
-    padding: 0px 4px 0px 32px;
-    font: 13px;
+    padding: 0px 4px 0px 35px;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center; 
+    padding: 0px 4px 0px 35px;
+    margin: 10px 5px;
     font-family: arial,sans-serif;
 }
 
-.header ul {
-    display: flex;
-    align-items: center;
-}
-
-.header ul li {
+.header .redirect-to {
     margin: 5px 10px;
-    color: black;
+    display: flex;
+    flex-direction: row;
 }
 
-.header ul li a{
+.header .redirect-to a{
     color: black;
+    font: 10px; 
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.header .redirect-to a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Grid menu */
@@ -56,10 +67,11 @@ body {
 }
 
 .header .circles-menu:hover{
-    background-color: #a8adb3;
-    border-radius: 50%;
+    background-color: #aaaaaa;
+    box-shadow: 0px 0px 2px 3px #aaaaaa;
+    border-radius: 90%;
     width: 30px;
-    padding: 4px 3px;
+    padding: 4px 2px;
 }
 
 .header .circles-menu .circle {
@@ -69,10 +81,21 @@ body {
     margin: 1px;
 }
 
-.header ul img {
+.header .profile-menu{
+    margin: 5px 10px;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.header .profile-menu img {
     border-radius: 50%;
     width: 35px;
     height: 35px;
+}
+
+.header .profile-menu img:hover {
+    box-shadow: 0px 0px 5px 5px #aaaaaa;
 }
 
 /* Hero */
@@ -222,7 +245,6 @@ footer p {
     .hero .form-container form input{
         width: 400px;
     }
-
 }
 
 @media(min-width: 640px){
