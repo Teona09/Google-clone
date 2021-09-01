@@ -46,7 +46,7 @@ body {
 
 .header .redirect-to a{
     color: black;
-    font: 10px; 
+    font-size: 13px; 
     display: flex;
     justify-content: space-between;
     margin: 5px 10px;
