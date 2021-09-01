@@ -160,6 +160,7 @@ body {
 .language-list .language{
     display: flex;
     align-content: space-around;
+    margin: 0px 5px;
 }
 
 
