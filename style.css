@@ -218,14 +218,12 @@ footer p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .footer .footer-links ul {
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0;
-
 }
 
 .footer .footer-links ul li {
