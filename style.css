@@ -199,7 +199,7 @@ body {
   left: 0;
   width: 100%;
   background-color: #f2f2f2;
-  padding: 15px 0;
+  padding: 15px 0px;
   font-family: arial, sans-serif;
   color: #70757a;
 }
@@ -221,7 +221,7 @@ footer p {
 .footer .footer-links ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 15px 15px;
+  padding: 5px 15px;
 }
 
 .footer .footer-links .left-footer ul li {
